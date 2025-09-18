@@ -96,7 +96,7 @@
     }
     .about-img img {
       width: 100%;
-      max-width: 350px;
+      max-width: 300px;
       border-radius: 15px;
       box-shadow: 0 6px 15px rgba(0,0,0,0.2);
       border: 2px solid #03dfeb; 
@@ -360,4 +360,5 @@ p.text{
 p{
     font-size: 20px;
     text-align: justify;;
+
 }
