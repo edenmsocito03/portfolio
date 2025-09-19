@@ -1,0 +1,363 @@
+    /* Global Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #222;
+    background: linear-gradient(to right, #0dcaf0, #3a0532);
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 600;
+     
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #111;
+    }
+    .navbar-brand {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+        cursor: default !important;
+    text-decoration: none !important;
+    pointer-events: none;
+    }
+    .navbar-brand span {
+      color: #0dcaf0;
+    }
+    .navbar-nav .nav-link {
+      color: #fff;
+      transition: color 0.3s;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #0dcaf0;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 120px 0 60px;
+    background: linear-gradient(135deg, #0dcaf0,#3a0532);
+      color: white;
+      display: flex;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .hero-text h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .hero-text h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+    .hero-buttons .btn {
+      background:  #0dcaf0;
+      color: #024711;
+      border-radius: 30px;
+      font-weight: 600;
+      padding: 10px 25px;
+      transition: 0.3s;
+    }
+    .hero-buttons .btn:hover {
+      background: #1b6a7a;
+      color: #fff;
+    }
+    .hero .contact-link {
+      font-size: 1.3rem;
+      color: white;
+      transition: 0.3s;
+    }
+    .hero .contact-link:hover {
+      color: #ffc107;
+    }
+    .hero img {
+     width: 350px;
+     height: 300px;
+     border: 2px solid #03dfeb; 
+     
+      border-radius: 50%;
+     box-shadow: 0 8px 20px  #03dfeb;
+        transition: transform 0.3s;
+
+}
+.hero img:hover{
+ transform: scale(1.1);
+}
+    /* About Section */
+    #about {
+      padding: 80px 0;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .about-img img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+      border: 2px solid #03dfeb; 
+       transition: transform 0.3s;
+  box-shadow: 0 8px 20px  #03dfeb;
+
+}
+.about-img:hover{
+ transform: scale(1.1);
+}
+    .about_content {
+      flex: 1;
+    }
+    .details-item {
+      margin: 10px 0;
+    }
+#about h2 {
+      border-bottom: 3px solid  #3a0532;
+      display: inline-block;     
+  padding-bottom: 5px;      
+ 
+    }
+
+.about_content p{
+  background: #f1f1f1;
+      border: 2px solid #03dfeb;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      color: #111;
+       transition: transform 0.3s;
+}
+
+.about_content p:hover{
+  text-align: justify;
+  background-color:  #30202e;
+  color: #ffffff;
+   transform: translateY(-6px);
+     box-shadow: 0 8px 20px #03dfeb;
+ 
+}
+
+
+
+
+    /* Experience Section */
+    .education_section {
+      padding: 80px 0;
+ 
+    }
+
+      .education_section h2 {
+      border-bottom: 3px solid  #3a0532;
+      display: inline-block;     
+  padding-bottom: 5px;      
+ 
+    }
+
+
+.education-card{
+  background: #f1f1f1;
+      border: 2px solid #03dfeb;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      color: #111;
+       transition: transform 0.3s;
+}
+
+.education-card:hover{
+  text-align: justify;
+  background-color:  #30202e;
+  color: #ffffff;
+   transform: translateY(-6px);
+     box-shadow: 0 8px 20px #03dfeb;
+ 
+}
+
+
+
+
+        /* skill Section */
+    .skill_section {
+      padding: 80px 0;
+ 
+    }
+    .skill_section h2 {
+      border-bottom: 3px solid  #3a0532;
+      display: inline-block;     
+  padding-bottom: 5px;      
+ 
+    }
+    .skill-card {
+      background: #f1f1f1;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border: 2px solid #03dfeb;
+      transition: transform 0.3s;
+      
+    }
+
+    .skill-card:hover{
+  text-align: justify;
+  background-color:  #30202e;
+  color: #ffffff;
+   transform: translateY(-6px);
+     box-shadow: 0 8px 20px #03dfeb;
+ 
+}
+
+        /* Experience Section */
+    .experience_section {
+      padding: 80px 0;
+ 
+    }
+    .experience_section h2 {
+      border-bottom: 3px solid  #3a0532;
+      display: inline-block;     
+  padding-bottom: 5px;      
+ 
+    }
+    .experience-card {
+      background: #f1f1f1;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border: 2px solid #03dfeb;
+      transition: transform 0.3s;
+    }
+    .experience-card:hover{
+  text-align: justify;
+  background-color:  #30202e;
+  color: #ffffff;
+   transform: translateY(-6px);
+     box-shadow: 0 8px 20px #03dfeb;
+ 
+}
+
+
+    /* Contact Section */
+    .contact_section {
+      padding: 80px 0;
+
+      color: white;
+    }
+
+  .contact_section h3 {
+      border-bottom: 3px solid  #3a0532;
+      display: inline-block;     
+  padding-bottom: 5px;      
+ 
+    }
+    
+    .send-btn {
+      background: #0dcaf0;
+     color: #024711;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .send-btn:hover {
+      background:  #26798a;
+    }
+    .social-icons .bi {
+      font-size: 1.5rem;
+      margin-right: 15px;
+      transition: 0.3s;
+      color: #fff;
+    }
+    .social-icons .bi:hover {
+      color: #0dcaf0;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      color: white;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero {
+        text-align: center;
+      }
+      .hero-content {
+        flex-direction: column;
+      }
+      #about {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+p.text{
+    font-size: 10px;
+    padding: 15px;
+}
+#about h2 {
+      border-bottom: 3px solid  #3a0532;
+      display: inline-block;     
+  padding-bottom: 5px;  
+  margin-right: 270px;
+    }
+/* ✅ White Burger Button */
+.navbar-toggler {
+  border: none; /* optional: remove border */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#contacts .container {
+  background: rgba(44, 48, 65, 0.6); 
+  backdrop-filter: blur(10px);       
+  -webkit-backdrop-filter: blur(10px); 
+  height: 520px;
+  padding: 70px;
+  border-radius: 10px;
+  border: 2px solid #03dfeb; 
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+p.text{
+    font-size: 20px;
+    text-align: justify;
+}
+    }
+
+    #contacts .container {
+  background: rgba(44, 48, 65, 0.6); 
+  backdrop-filter: blur(10px);       
+  -webkit-backdrop-filter: blur(10px); 
+  height: 520px;
+  padding: 70px;
+  border-radius: 10px;
+  border: 2px solid #03dfeb; 
+  transition: transform 0.3s;
+}
+
+    #contacts .container:hover{
+
+   transform: translateY(-6px);
+     box-shadow: 0 8px 20px #03dfeb;
+ 
+}
+
+p.text{
+    font-size: 20px;
+    text-align: justify;
+    padding: 15px;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;;
+}
